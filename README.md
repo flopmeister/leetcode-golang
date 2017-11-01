@@ -11,3 +11,8 @@
 32| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | [golang](./golang/longest_valid_parentheses.go)| O(n) | O(n) | Hard||
 121| [Best Time to Buy and Sell Stock ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [golang](./golang/best_time_to_buy_and_sell_stock.go)| O(n) | O(1) | Easy||
 714| [ Best Time to Buy and Sell Stock with Transaction Fee ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [golang](./golang/best_time_to_buy_and_sell_with_transaction_fee.go)| O(n) | O(1) | Medium||
+
+## Array
+|#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+122| [ Best Time to Buy and Sell Stock II ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [golang](./golang/best_time_to_buy_and_sell_stock_ii.go)| O(n) | O(1) | Easy||
