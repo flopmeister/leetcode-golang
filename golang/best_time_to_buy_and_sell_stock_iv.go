@@ -1,4 +1,3 @@
-import "math"
 func maxProfit(k int, prices []int) int {
     size := len(prices)
     if size < 2 {
@@ -17,7 +16,7 @@ func maxProfit(k int, prices []int) int {
     
     buy := make([]int, k)
     for i, _ := range buy {
-        buy[i] = math.MinInt32
+        buy[i] = -prices[0]
     }
     sell:= make([]int, k)
 
