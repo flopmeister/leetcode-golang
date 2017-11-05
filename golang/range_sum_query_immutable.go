@@ -6,7 +6,7 @@ func Constructor(nums []int) NumArray {
     sums := make([]int, len(nums) + 1)
     for i, _ := range nums {
         sums[i+1] = nums[i] + sums[i]
-    }
+    }	
     return NumArray{sums}
 }
 
