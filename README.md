@@ -14,8 +14,8 @@
 123| [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) | [golang](./golang/best_time_to_buy_and_sell_stock_iii.go)| O(n) | O(n) | Easy||
 188| [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | [golang](./golang/best_time_to_buy_and_sell_stock_iv.go)| O(kn) | O(k) | Hard||
 309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | [golang](./golang/best_time_to_buy_and_sell_stock_with_cool_down.go) [python](./python/best_time_to_buy_and_sell_stock_with_cool_down.py)| O(n) | O(1) | Medium||
-303| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | [golang](./golang/range_sum_query_immutable.go.go)| O(1) | O(n) | Hard||
-
+303| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | [golang](./golang/range_sum_query_immutable.go.go)| O(1) | O(n) | Easy||
+304| [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | [golang](./golang/range_sum_query_2D_immutable.go.go)| O(1) | O(mn) | Medium||
 
 
 ## Array
