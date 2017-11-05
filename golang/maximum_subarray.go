@@ -1,4 +1,6 @@
-// convert the problem to be the maximum subarray ending at nums[i]
+// Thoughts:
+// Convert this problem to what is the maximum subarray ending at i?
+// To find the the maximum subarray ending at i: dp[i] = nums[i] + dp[i-1]>0?dp[i-1]:0
 func maxSubArray(nums []int) int {
     size := len(nums)
     dp := make([]int, size)
