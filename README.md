@@ -3,6 +3,8 @@
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 8| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [golang](./golang/string_to_integer_atoi.go)| O(n) | O(1) | Easy||
 12| [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | [golang](./golang/integer_to_roman.go) | O(1) | O(1) | Medium ||
+13| [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | [golang](./golang/roman_to_integer.go) | O(n) | O(1) | Easy ||
+
 
 ## DP
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
