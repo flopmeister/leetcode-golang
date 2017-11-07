@@ -22,6 +22,7 @@
 198| [House Robber](https://leetcode.com/problems/house-robber) | [golang](./golang/housr_robber.go) | O(n)| O(1)| Easy||
 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [golang](./golang/climbing_stairs.go) | O(n)| o(n)| Easy||
 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [golang](./golang/maximum_subarray.go)|O(n)|O(n)|Easy||
+264| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | [golang](./golang/ugly_number_ii.go)|O(n)|O(1)|Medium||
 
 ## Array
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
