@@ -21,8 +21,9 @@
 304| [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | [golang](./golang/range_sum_query_2D_immutable.go.go)| O(1) | O(mn) | Medium||
 198| [House Robber](https://leetcode.com/problems/house-robber) | [golang](./golang/housr_robber.go) | O(n)| O(1)| Easy||
 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [golang](./golang/climbing_stairs.go) | O(n)| o(n)| Easy||
-53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [golang](./golang/maximum_subarray.go)|O(n)|O(n)|Easy||
-264| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | [golang](./golang/ugly_number_ii.go)|O(n)|O(1)|Medium||
+53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [golang](./golang/maximum_subarray.go) |O(n)|O(n)|Easy||
+264| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | [golang](./golang/ugly_number_ii.go) |O(n)|O(1)|Medium||
+139| [Word Break](https://leetcode.com/problems/word-break) | [golang](./golang/word_break.go)| O(n^2)| O(n)| Medium||
 
 ## Array
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
