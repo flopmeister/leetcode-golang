@@ -26,6 +26,7 @@
 139| [Word Break](https://leetcode.com/problems/word-break) | [golang](./golang/word_break.go)| O(n^2)| O(n)| Medium||
 140| [Word Break II](https://leetcode.com/problems/word-break-ii) | [golang](./golang/word_break_ii.go)| O(n^2)| O(n)| Hard||3 solutions in this file
 64| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | [golang](./golang/minimum_path_sum.go) | O(m*n) | O(m*n) | Medium || Can be further improved to space O(1)
+62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | [golang](./golang/unique_paths.go) |O(m*n) | O(m*n) | Medium || Can be further improved to space O(1)
 
 ## Array
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
