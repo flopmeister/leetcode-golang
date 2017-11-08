@@ -24,6 +24,7 @@
 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [golang](./golang/maximum_subarray.go) |O(n)|O(n)|Easy||
 264| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | [golang](./golang/ugly_number_ii.go) |O(n)|O(1)|Medium||
 139| [Word Break](https://leetcode.com/problems/word-break) | [golang](./golang/word_break.go)| O(n^2)| O(n)| Medium||
+140| [Word Break II](https://leetcode.com/problems/word-break-ii) | [golang](./golang/word_break_ii.go)| O(n^2)| O(n)| Hard| 3 solutions in this file|
 
 ## Array
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
