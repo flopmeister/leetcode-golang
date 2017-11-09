@@ -28,7 +28,13 @@
 64| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | [golang](./golang/minimum_path_sum.go) | O(m*n) | O(m*n) | Medium || Can be further improved to space O(1)
 62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | [golang](./golang/unique_paths.go) |O(m*n) | O(m*n) | Medium || Can be further improved to space O(1)
 494 | [Target Sum](https://leetcode.com/problems/target-sum) | [golang](.golang/target_sum.go) | O(n^2) |o(n) | Medium || two solutions are provided
+
 ## Array
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 122| [Best Time to Buy and Sell Stock II ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [golang](./golang/best_time_to_buy_and_sell_stock_ii.go)| O(n) | O(1) | Easy||
+
+## Bit Manipulation
+|#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+461| [Hamming Distance ](https://leetcode.com/problems/hamming-distance) | [golang](./golang/hamming_distance.go)| O(n) | O(1) | Easy||
