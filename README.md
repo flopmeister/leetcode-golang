@@ -38,3 +38,8 @@
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 461| [Hamming Distance ](https://leetcode.com/problems/hamming-distance) | [golang](./golang/hamming_distance.go)| O(n) | O(1) | Easy||
+
+## Tree
+|#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+617| [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [golang](./golang/merge_two_binary_trees.go)| O(n) | O(n) | Easy||
