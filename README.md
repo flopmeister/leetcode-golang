@@ -29,7 +29,7 @@
 62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | [golang](./golang/unique_paths.go) |O(m*n) | O(m*n) | Medium || Can be further improved to space O(1)
 494 | [Target Sum](https://leetcode.com/problems/target-sum) | [golang](./golang/target_sum.go) | O(n^2) |O(n) | Medium || two solutions are provided
 322 | [Coin Change](https://leetcode.com/problems/coin-change) | [golang](./golang/coin_change.go) | O(s*n) | O(s) | Medium ||
-
+312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons) | [golang](./golang/burst_balloons.go) | O(n^3) | Hard || 参考了discuss 解出题目
 ## Array
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
