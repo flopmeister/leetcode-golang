@@ -35,6 +35,7 @@
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 122 | [Best Time to Buy and Sell Stock II ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [golang](./golang/best_time_to_buy_and_sell_stock_ii.go)| O(n) | O(1) | Easy||
 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap) | [golang](./golang/maximum_swap.go) | O(n) | O(n) | Medium || 两次循环很巧妙
+674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | [golang](./golang/longest_continuous_increasing_sequence.go) | O(1) | O(1) | Easy||
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
