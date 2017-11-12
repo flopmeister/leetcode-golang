@@ -7,6 +7,7 @@
 273 | [Integer to String](https://leetcode.com/problems/integer-to-english-words) | [golang](./golang/integer_to_english_words.go) |  O(n/10) | O(1)| Hard || 
 686 | [Repeated String Match](https://leetcode.com/contest/leetcode-weekly-contest-52/problems) | [goalng](./golang/repeated_string_match.go) | O(n)|O(1)|Easy ||
 383 | [Ransom Note](./golang/https://leetcode.com/problems/ransom-note) | [golang](./golang/ransom_note.go) | O(m+n) | O(m) | Easy ||
+22 | [Generate Parentheses](./golang/https://leetcode.com/problems/generate-parentheses) | [golang](./golang/generate_parentheses.go) | TBA | TBA | Medium || 不是最优解。
 
 ## DP
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
