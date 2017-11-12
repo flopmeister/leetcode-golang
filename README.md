@@ -32,6 +32,7 @@
 322 | [Coin Change](https://leetcode.com/problems/coin-change) | [golang](./golang/coin_change.go) | O(s*n) | O(s) | Medium ||
 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons) | [golang](./golang/burst_balloons.go) | O(n^3) | O(n) | Hard || 参考了discuss 解出题目
 673 | [Number of Longest Increasing Subsequence] (https://leetcode.com/problems/number-of-longest-increasing-subsequence) | [golang](./golang/number_of_longest_increasing_subsequence.go) | O(n^2) | O(n) | Medium || 
+691 | [Stickers to Spell Word] (https://leetcode.com/problems/stickers-to-spell-word) | [golang](./golang/stickers_to_spell_word.go) | TBA | TBA | Hard || 还没做出来。。。 
 
 ## Array
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
