@@ -32,8 +32,8 @@
 494 | [Target Sum](https://leetcode.com/problems/target-sum) | [golang](./golang/target_sum.go) | O(n^2) |O(n) | Medium || two solutions are provided
 322 | [Coin Change](https://leetcode.com/problems/coin-change) | [golang](./golang/coin_change.go) | O(s*n) | O(s) | Medium ||
 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons) | [golang](./golang/burst_balloons.go) | O(n^3) | O(n) | Hard || 参考了discuss 解出题目
-673 | [Number of Longest Increasing Subsequence] (https://leetcode.com/problems/number-of-longest-increasing-subsequence) | [golang](./golang/number_of_longest_increasing_subsequence.go) | O(n^2) | O(n) | Medium || 
-691 | [Stickers to Spell Word] (https://leetcode.com/problems/stickers-to-spell-word) | [golang](./golang/stickers_to_spell_word.go) | TBA | TBA | Hard || 还没做出来。。。 
+673 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence) | [golang](./golang/number_of_longest_increasing_subsequence.go) | O(n^2) | O(n) | Medium || 
+691 | [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word) | [golang](./golang/stickers_to_spell_word.go) | TBA | TBA | Hard || 还没做出来。。。 
 
 ## Array
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -41,6 +41,7 @@
 122 | [Best Time to Buy and Sell Stock II ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [golang](./golang/best_time_to_buy_and_sell_stock_ii.go)| O(n) | O(1) | Easy ||
 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap) | [golang](./golang/maximum_swap.go) | O(n) | O(n) | Medium || 两次循环很巧妙
 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | [golang](./golang/longest_continuous_increasing_sequence.go) | O(1) | O(1) | Easy ||
+26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [golang](./golang/remove_duplicates_from_sorted_array.go) | O(n) | O(1) | Easy ||
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
