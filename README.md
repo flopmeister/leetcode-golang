@@ -45,14 +45,19 @@
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-461 | [Hamming Distance ](https://leetcode.com/problems/hamming-distance) | [golang](./golang/hamming_distance.go)| O(4n) | O(1) | Easy||
+461 | [Hamming Distance ](https://leetcode.com/problems/hamming-distance) | [golang](./golang/hamming_distance.go)| O(4n) | O(1) | Easy ||
 
 ## Tree
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [golang](./golang/merge_two_binary_trees.go)| O(n) | O(n) | Easy||
+617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [golang](./golang/merge_two_binary_trees.go)| O(n) | O(n) | Easy ||
 
 ## Math
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | [golang](./golang/ugly_number.go) | O(n) | O(1) | Easy||
+263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | [golang](./golang/ugly_number.go) | O(n) | O(1) | Easy ||
+
+## LinkedList
+|#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+24 | [Linked List](https://leetcode.com/problems/swap-nodes-in-pairs) | [golang](./golang/swap_nodes_in_pairs.go) | O(n) | O(1) | Medium ||
