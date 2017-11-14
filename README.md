@@ -45,6 +45,7 @@
 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [golang](./golang/remove_duplicates_from_sorted_array.go) | O(n) | O(1) | Easy ||
 27 | [Remove Element](https://leetcode.com/problems/remove-element) | [golang](./golang/remove_element.go) | O(n) | O(1) | Easy|| 
 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/description/) | [golang](./golang/next_permutation.go) | O(n) | O(1) | Medium || 
+33 | [Search in Rotated Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | [golang](./golang/search_in_rotated_array.go) | O(n) | O(1) | Medium ||
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
