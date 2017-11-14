@@ -6,8 +6,9 @@
 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | [golang](./golang/roman_to_integer.go) | O(n) | O(1) | Easy ||
 273 | [Integer to String](https://leetcode.com/problems/integer-to-english-words) | [golang](./golang/integer_to_english_words.go) |  O(n/10) | O(1)| Hard || 
 686 | [Repeated String Match](https://leetcode.com/contest/leetcode-weekly-contest-52/problems) | [goalng](./golang/repeated_string_match.go) | O(n)|O(1)|Easy ||
-383 | [Ransom Note](./golang/https://leetcode.com/problems/ransom-note) | [golang](./golang/ransom_note.go) | O(m+n) | O(m) | Easy ||
-22 | [Generate Parentheses](./golang/https://leetcode.com/problems/generate-parentheses) | [golang](./golang/generate_parentheses.go) | TBA | TBA | Medium || 不是最优解。
+383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | [golang](./golang/ransom_note.go) | O(m+n) | O(m) | Easy ||
+22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | [golang](./golang/generate_parentheses.go) | TBA | TBA | Medium || 不是最优解。
+28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | [golang](./golang/implement_strStr.go|) | O(n^2) | O(1) | Easy || 下次使用KMP    
 
 ## DP
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
