@@ -47,7 +47,8 @@
 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/description/) | [golang](./golang/next_permutation.go) | O(n) | O(1) | Medium || 
 33 | [Search in Rotated Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | [golang](./golang/search_in_rotated_array.go) | O(lg(n)) | O(1) | Medium | Binary Search |
 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range) | [golang](./golang/search_for_a_range.go) | O(lg(n)) | O(1) | Medium | Binary Search |
-35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | [golang](./golang/search_insert_position) | O(lg(n)) | O(1) | Easy | Binary Search |
+35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | [golang](./golang/search_insert_position.go) | O(lg(n)) | O(1) | Easy | Binary Search |
+36 | [Valid Soduku](https://leetcode.com/problems/valid-sudoku) | [golang](./golang/valid_soduku.go) | O(n^2) | O(n^2) | Medium ||
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
