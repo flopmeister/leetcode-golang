@@ -1,20 +1,10 @@
-package main
-
-import "strconv"
-import "bytes"
-
-func main() {
-
-}
 func countAndSay(n int) string {
 	if n <= 0 {
 		return ""
 	}
-	// n == 1
 	nums := "1"
 	for i := 1; i < n; i++ {
 		var buffer bytes.Buffer
-		// recored current char
 		count := 1
 		for j := 0; j < len(nums); j++ {
 			if j > 0 {
@@ -26,11 +16,9 @@ func countAndSay(n int) string {
 					count = 1
 				}
 			}
-			if j == len(nums)-1 {
-				buffer.WriteString(strconv.Itoa(count))
-				buffer.WriteByte(nums[j])
-			}
 		}
+        buffer.WriteString(strconv.Itoa(count))
+        buffer.WriteByte(nums[len(nums)-1])
 		nums = buffer.String()
 	}
 	return nums

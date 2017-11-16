@@ -8,7 +8,8 @@
 686 | [Repeated String Match](https://leetcode.com/contest/leetcode-weekly-contest-52/problems) | [goalng](./golang/repeated_string_match.go) | O(n)|O(1)|Easy ||
 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | [golang](./golang/ransom_note.go) | O(m+n) | O(m) | Easy ||
 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | [golang](./golang/generate_parentheses.go) | TBA | TBA | Medium || 不是最优解。
-28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | [golang](./golang/implement_strStr.go) | O(n^2) | O(1) | Easy || 下次使用KMP    
+28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | [golang](./golang/implement_strStr.go) | O(n^2) | O(1) | Easy || 下次使用KMP
+38 | [Count and Say](https://leetcode.com/problems/count-and-say) | [golang](./golang/count_and_say.go) | O(n^2) | O(n) | Easy || 用一个pointer记录char出现次数 
 
 ## DP
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
