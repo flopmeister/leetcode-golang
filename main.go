@@ -9,23 +9,24 @@ func main() {
 // 题目如果给的不是set， 需要加一个移除duplicates
 // 第一反应，sort 然后back track
 
-func combinationSum(candidates []int, target int) [][]int {
-	sort.Ints(candidates) // which is O(nlgn)
-	return solution(candidates, target)
+func combinationSum2(candidates []int, target int) [][]int {
+	sort.Ints(candidates)
+	return solution(candidates, target, 0)
 }
 
-func solution(candidates []int, target int) [][]int {
+func solution(candidates []int, target, start int) [][]int {
 	res := [][]int{}
-	// basic scenario
+	// base scenario, target == 0, recursion is done, can quit
 	if target == 0 {
 		emp := []int{}
 		res = append(res, emp)
 	}
-	for idx, value := range candidates {
+	for ; start < len(candidates); start++ {
+		value := candidates[start]
 		if value <= target {
-			for _, sub := range solution(candidates[idx:], target-value) {
+			for _, val := range solution(candidates, target-value, start+1) {
 				tmp := []int{value}
-				tmp = append(tmp, sub...)
+				tmp = append(tmp, val...)
 				res = append(res, tmp)
 			}
 		}
