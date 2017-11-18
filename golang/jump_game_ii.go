@@ -5,10 +5,10 @@ func jump(nums []int) int {
 	 }
 	 currentMax, nextMax, level, i := 0, 0, 0, 0
 	 
-	 for ; i <len(nums)-1; i++ {
+	 for i <= currentMax {
 		 level ++
-		 for j:=i; j<=currentMax; j++{
-			 nextMax = max(nums[j]+j, nextMax)
+		 for ; i<=currentMax; i++{
+			 nextMax = max(nums[i]+i, nextMax)
 			 if nextMax >=len(nums) -1{
 				 return level
 			 }

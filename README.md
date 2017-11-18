@@ -57,6 +57,7 @@
 45 | [Jump Game](https://leetcode.com/problems/jump-game-ii) | [golang](./golang/jump_game_ii.go) | O(n) | O(1) | Hard | 'BFS' |
 46 | [Permutations](https://leetcode.com/problems/permutations) | [golang](./golang/permutations.go) | O(n) | O(n) | Medium ||
 47 | [Permutations II](https://leetcode.com/problems/permutations-ii) | [golang](./golang/permutations_ii.go) | O(n) | O(n) | Medium ||
+48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | [golang](./golang/rotate_image.go) | O(n) | O(1) | Medium || 衍生：anti-clockwise rotation problem.
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
