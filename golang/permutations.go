@@ -15,7 +15,7 @@ func solution(nums []int, out *[][]int, buf *[]int){
     
     for i:=0; i<len(nums); i++{
         *buf = append(*buf, nums[i])
-        next := make([]int, len(nums))
+        next := make([]int, len(nums)-1)
         copy(next, nums)
         next = append(next[0:i], next[i+1:]...)
         solution(next, out, buf)

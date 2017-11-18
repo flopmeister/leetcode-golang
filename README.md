@@ -56,6 +56,7 @@
 42 | [Trapping Water](https://leetcode.com/problems/trapping-rain-water) | [golang](./golang/trapping_water.go) | O(n^2) | O(n) | Hard | 'Array' 'Two Pointers' 'Stack' | 不是最优解，https://leetcode.com/problems/trapping-rain-water/solution/ 讲解很不错
 45 | [Jump Game](https://leetcode.com/problems/jump-game-ii) | [golang](./golang/jump_game_ii.go) | O(n) | O(1) | Hard | 'BFS' |
 46 | [Permutations](https://leetcode.com/problems/permutations) | [golang](./golang/permutations.go) | O(n) | O(n) | Medium ||
+47 | [Permutations II](https://leetcode.com/problems/permutations-ii) | [golang](./golang/permutations_ii.go) | O(n) | O(n) | Medium ||
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

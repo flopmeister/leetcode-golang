@@ -1,16 +1,4 @@
-package main
-
-import "sort"
-
-func main() {
-
-}
-
-// 题目如果给的不是set， 需要加一个移除duplicates
-// 第一反应，sort 然后back track
-
 func permuteUnique(nums []int) [][]int {
-	// 先 sort， 然后直到
 	sort.Ints(nums)
 	out := [][]int{}
 	buf := []int{}
@@ -36,3 +24,4 @@ func solution(nums []int, out *[][]int, buf *[]int) {
 		*buf = (*buf)[:len(*buf)-1]
 	}
 }
+
