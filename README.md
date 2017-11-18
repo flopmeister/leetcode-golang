@@ -52,6 +52,7 @@
 36 | [Valid Soduku](https://leetcode.com/problems/valid-sudoku) | [golang](./golang/valid_soduku.go) | O(n^2) | O(n^2) | Medium ||
 39 | [Combination Sum](https://leetcode.com/problems/combination-sum) | [golang](./golang/combination_sum.go) | TBA | TBA | Medium ||
 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | [golang](./golang/combination_sum_ii.go) | TBA | O(n) | Medium || 
+41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | [golang](./golang/first_missing_positive.go) | O(n) | O(1) | Hard || 这个sort 有些特殊，刚好index跟value 得match
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
