@@ -1,6 +1,6 @@
 package main
 
-import "sort"
+import "bytes"
 
 func main() {
 
@@ -9,27 +9,24 @@ func main() {
 // 题目如果给的不是set， 需要加一个移除duplicates
 // 第一反应，sort 然后back track
 
-func combinationSum2(candidates []int, target int) [][]int {
-	sort.Ints(candidates)
-	return solution(candidates, target, 0)
-}
+func multiply(num1 string, num2 string) string {
+	m, n := len(num1), len(num2)
+	pos := make([]int, m+n) // maximum possible length
 
-func solution(candidates []int, target, start int) [][]int {
-	res := [][]int{}
-	// base scenario, target == 0, recursion is done, can quit
-	if target == 0 {
-		emp := []int{}
-		res = append(res, emp)
-	}
-	for ; start < len(candidates); start++ {
-		value := candidates[start]
-		if value <= target {
-			for _, val := range solution(candidates, target-value, start+1) {
-				tmp := []int{value}
-				tmp = append(tmp, val...)
-				res = append(res, tmp)
-			}
+	for i := 0; i < m; i++ {
+		for j := 0; j < n; j++ {
+			mul := int(num1[m]) * int(num2[n])
+			p1, p2 := i+j, i+j+1
+			sum := mul + pos[p2]
+			pos[p1] += sum / 10
+			pos[p2] = sum % 10
 		}
 	}
-	return res
+	var buf bytes.Buffer
+	for _, val := range pos {
+		if buf.Len() != 0 || val != 0 {
+			buf.WriteByte(byte(val))
+		}
+	}
+	return buf.String()
 }

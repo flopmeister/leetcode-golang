@@ -54,6 +54,7 @@
 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | [golang](./golang/combination_sum_ii.go) | TBA | O(n) | Medium || 
 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | [golang](./golang/first_missing_positive.go) | O(n) | O(1) | Hard || 这个sort 有些特殊，刚好index跟value 得match
 42 | [Trapping Water](https://leetcode.com/problems/trapping-rain-water) | [golang](./golang/trapping_water.go) | O(n^2) | O(n) | Hard | 'Array' 'Two Pointers' 'Stack' | 不是最优解，https://leetcode.com/problems/trapping-rain-water/solution/ 讲解很不错
+45 | [Jump Game](https://leetcode.com/problems/jump-game-ii) | [golang](./golang/jump_game_ii.go) | O(n) | O(1) | Hard | 'BFS' |
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
