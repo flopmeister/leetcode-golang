@@ -11,6 +11,7 @@
 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | [golang](./golang/implement_strStr.go) | O(n^2) | O(1) | Easy || 下次使用KMP
 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | [golang](./golang/count_and_say.go) | O(n^2) | O(n) | Easy || 用一个pointer记录char出现次数 
 344 | [Reverse String](https://leetcode.com/problems/reverse-string) | [golang](./golang/reverse_string.go) | O(n) | O(1) | Easy ||
+657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle) | [golang](./golang/judge_route_circle.go) | O(n) | O(1) | Easy ||
 
 ## DP
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
