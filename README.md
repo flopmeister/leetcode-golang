@@ -10,6 +10,7 @@
 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | [golang](./golang/generate_parentheses.go) | TBA | TBA | Medium || 不是最优解。
 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | [golang](./golang/implement_strStr.go) | O(n^2) | O(1) | Easy || 下次使用KMP
 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | [golang](./golang/count_and_say.go) | O(n^2) | O(n) | Easy || 用一个pointer记录char出现次数 
+344 | [Reverse String](https://leetcode.com/problems/reverse-string) | [golang](./golang/reverse_string.go) | O(n) | O(1) | Easy ||
 
 ## DP
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -58,6 +59,7 @@
 46 | [Permutations](https://leetcode.com/problems/permutations) | [golang](./golang/permutations.go) | O(n) | O(n) | Medium ||
 47 | [Permutations II](https://leetcode.com/problems/permutations-ii) | [golang](./golang/permutations_ii.go) | O(n) | O(n) | Medium ||
 48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | [golang](./golang/rotate_image.go) | O(n) | O(1) | Medium || 衍生：anti-clockwise rotation problem.
+49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | [golang](./golang/group_anagrams.go) | O(n*glogg) | O(n) | Medium || 
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
