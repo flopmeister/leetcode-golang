@@ -61,6 +61,7 @@
 47 | [Permutations II](https://leetcode.com/problems/permutations-ii) | [golang](./golang/permutations_ii.go) | O(n) | O(n) | Medium ||
 48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | [golang](./golang/rotate_image.go) | O(n) | O(1) | Medium || 衍生：anti-clockwise rotation problem.
 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | [golang](./golang/group_anagrams.go) | O(n*glogg) | O(n) | Medium || 
+561 | [Array Partition I](https://leetcode.com/problems/array-partition-i) | [golang](./golang/array_partition_i.go) | O(n) | O(1) | Easy ||
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
