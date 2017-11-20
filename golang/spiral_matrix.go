@@ -1,15 +1,3 @@
-package main
-
-func main() {
-
-}
-
-// 题目如果给的不是set， 需要加一个移除duplicates
-// 第一反应，sort 然后back track
-
-// reverse the 2D array, then flip [i,j] to [j,i]
-// reverse the 2D array, then flip [i,j] to [j,i]
-
 func spiralOrder(matrix [][]int) []int {
 	res := []int{}
 	if len(matrix) == 0 {
