@@ -56,7 +56,8 @@
 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | [golang](./golang/combination_sum_ii.go) | TBA | O(n) | Medium || 
 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | [golang](./golang/first_missing_positive.go) | O(n) | O(1) | Hard || 这个sort 有些特殊，刚好index跟value 得match
 42 | [Trapping Water](https://leetcode.com/problems/trapping-rain-water) | [golang](./golang/trapping_water.go) | O(n^2) | O(n) | Hard | 'Array' 'Two Pointers' 'Stack' | 不是最优解，https://leetcode.com/problems/trapping-rain-water/solution/ 讲解很不错
-45 | [Jump Game](https://leetcode.com/problems/jump-game-ii) | [golang](./golang/jump_game_ii.go) | O(n) | O(1) | Hard | 'BFS' |
+45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | [golang](./golang/jump_game_ii.go) | O(n) | O(1) | Hard | 'BFS' |
+55 | [Jump Game](https://leetcode.com/problems/jump-game) | [golang](./golang/jump_game.go) | O(n) | O(1) | Medium | DP |
 46 | [Permutations](https://leetcode.com/problems/permutations) | [golang](./golang/permutations.go) | O(n) | O(n) | Medium ||
 47 | [Permutations II](https://leetcode.com/problems/permutations-ii) | [golang](./golang/permutations_ii.go) | O(n) | O(n) | Medium ||
 48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | [golang](./golang/rotate_image.go) | O(n) | O(1) | Medium || 衍生：anti-clockwise rotation problem.
