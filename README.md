@@ -66,6 +66,7 @@
 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | [golang](./golang/spiral_matrix.go) | O(n) | O(n) | Medium ||
 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | [golang](./golang/spiral_matrix_ii.go) | O(n) | O(n) | Medium || 2D matrix transverse 问题 
 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | [golang](./golang/merge_intervals.go) | O(nlgn) | O(1) | Medium | Sort | implement golang sort interface 即可
+57 | [Inset Interval](https://leetcode.com/problems/insert-interval) | [golang](./golang/insert_interval.go) | O(n) | O(1) | Hard | Sort 或者遍历 | solution 2 来自leetcode 感觉更好
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
