@@ -1,5 +1,7 @@
 package main
 
+import "sort"
+
 func main() {
 
 }
@@ -10,19 +12,44 @@ func main() {
 // reverse the 2D array, then flip [i,j] to [j,i]
 // reverse the 2D array, then flip [i,j] to [j,i]
 
-func canJump(nums []int) bool {
-	dp := make([]int, len(nums))
-	if len(nums) < 1 {
-		return 0
+/**
+ * Definition for an interval.
+ * type Interval struct {
+ *	   Start int
+ *	   End   int
+ * }
+ */
+
+type IntervalSlice []Interval
+
+func (it IntervalSlice) Swap(i, j int) {
+	it[i], it[j] = it[j], it[i]
+}
+
+func (it IntervalSlice) Less(i, j int) bool {
+	return it[i].Start < it[j].Start
+}
+func (it IntervalSlice) Len() int {
+	return len(it)
+}
+
+func merge(intervals []Interval) []Interval {
+	if len(intervals) <= 1 {
+		return intervals
 	}
-	dp[0] = nums[0]
-	for i := 1; i < len(nums); i++ {
-		if dp[i-1] >= i {
-			if i+nums[i] > dp[i-1] {
-				dp[i] = i + nums[i]
-			} else {
-				dp[i] = dp[i-1]
+	it := IntervalSlice(intervals)
+	sort.Sort(it)
+	i := 1
+	for i < len(it) {
+		// when to merge
+		if it[i].Start <= it[i-1].End {
+			if it[i].End >= it[i-1].End {
+				it[i-1].End = it[i].End
 			}
+			it = append(it[:i], it[i+1:]...)
+		} else {
+			i++
 		}
 	}
+	return []Interval(it)
 }
