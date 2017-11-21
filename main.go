@@ -1,7 +1,5 @@
 package main
 
-import "sort"
-
 func main() {
 
 }
@@ -21,51 +19,15 @@ func main() {
  */
 
 // 解法1 ： 根据merge interval 思路， 先插入，再merge
-func insert(intervals []Interval, newInterval Interval) []Interval {
-	target := sort.Search(len(intervals), func(i int) bool {
-		return intervals[i].Start >= newInterval.Start
-	})
-	intervals = append(intervals[:target], append([]Interval{newInterval}, intervals[target:]...)...)
-	i := target
-	for ; i < len(intervals); i++ {
-		if i == 0 {
-			continue
-		}
-		// when to merge
-		if intervals[i].Start <= intervals[i-1].End {
-			if intervals[i].End >= intervals[i-1].End {
-				intervals[i-1].End = intervals[i].End
-			}
-			intervals = append(intervals[:i], intervals[i+1:]...)
-			i--
-		}
-	}
-	return intervals
-}
 
-func insert(intervals []Interval, newInterval Interval) []Interval {
-	if len(intervals) == 0 {
-		return append(intervals, newInterval)
+// 想法很简单, 找到第一个非空格，开始计数，
+// 再持续找下去，直到第一个空格。 退出，返回计数
+func lengthOfLastWord(s string) int {
+	i, count := len(s)-1, 0
+	for ; i >= 0 && s[i] == ' '; i-- {
 	}
-
-	for i, cur := range len(intervals) {
-		if cur.End < newInterval.Start {
-			continue
-		}
-		if cur.Start > newInterval.End {
-			intervals = append(intervals[:i], append([]Interval{newInterval}, intervals[i:]...)...)
-			break
-		}
-		// overlap cases
-		if newInterval.Start > cur.Start {
-			newInterval.Start = cur.Start
-		}
-		if newInterval.End < cur.End {
-			newInterval.End = cur.End
-		}
-		if i == len(intervals)-1 {
-			intervals = append(intervals, newInterval)
-		}
+	for ; i >= 0 && s[i] != ' '; i-- {
+		count++
 	}
-	return intervals
+	return count
 }

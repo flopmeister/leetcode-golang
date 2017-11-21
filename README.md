@@ -12,6 +12,7 @@
 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | [golang](./golang/count_and_say.go) | O(n^2) | O(n) | Easy || 用一个pointer记录char出现次数 
 344 | [Reverse String](https://leetcode.com/problems/reverse-string) | [golang](./golang/reverse_string.go) | O(n) | O(1) | Easy ||
 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle) | [golang](./golang/judge_route_circle.go) | O(n) | O(1) | Easy ||
+58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [golang](./golang/length_of_last_word.go) | O(n) | O(1) | Easy ||
 
 ## DP
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
