@@ -88,3 +88,4 @@
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 24 | [Linked List](https://leetcode.com/problems/swap-nodes-in-pairs) | [golang](./golang/swap_nodes_in_pairs.go) | O(n) | O(1) | Medium ||
+61 | [Rotate List](https://leetcode.com/problems/rotate-list) | [golang](./golang/rotate_list.go) | O(n) | O(1) | Medium | Two Pointers |
