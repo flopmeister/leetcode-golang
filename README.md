@@ -33,7 +33,8 @@
 139 | [Word Break](https://leetcode.com/problems/word-break) | [golang](./golang/word_break.go)| O(n^2) | O(n) | Medium ||
 140 | [Word Break II](https://leetcode.com/problems/word-break-ii) | [golang](./golang/word_break_ii.go)| O(n^2) | O(n) | Hard ||3 solutions in this file
 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | [golang](./golang/minimum_path_sum.go) | O(m*n) | O(m*n) | Medium || Can be further improved to space O(1)
-62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | [golang](./golang/unique_paths.go) |O(m*n) | O(m*n) | Medium || Can be further improved to space O(1)
+62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | [golang](./golang/unique_paths.go) |O(m*n) | O(m*n) | Medium || Can be further improved to space O(m)
+53 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | [golang](./golang/unique_paths_ii.go) | O(m*n) | O(m*n) || can be further improved to space O(m)
 494 | [Target Sum](https://leetcode.com/problems/target-sum) | [golang](./golang/target_sum.go) | O(n^2) |O(n) | Medium || two solutions are provided
 322 | [Coin Change](https://leetcode.com/problems/coin-change) | [golang](./golang/coin_change.go) | O(s*n) | O(s) | Medium ||
 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons) | [golang](./golang/burst_balloons.go) | O(n^3) | O(n) | Hard || 参考了discuss 解出题目
