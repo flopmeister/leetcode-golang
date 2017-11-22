@@ -84,6 +84,7 @@
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | [golang](./golang/ugly_number.go) | O(n) | O(1) | Easy ||
+66 | [Plus One](https://leetcode.com/problems/plus-one) | [golang](./golang/plus_one.go) | O(n) | O(1) | Easy | Array |
 
 ## LinkedList
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
