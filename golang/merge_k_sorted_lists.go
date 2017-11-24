@@ -1,10 +1,3 @@
-package main
-
-import "sort"
-
-func main() {
-}
-
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -12,7 +5,7 @@ func main() {
  *     Next *ListNode
  * }
  */
-func mergeKLists(lists []*ListNode) *ListNode {
+ func mergeKLists(lists []*ListNode) *ListNode {
 	vals := []int{}
 	head := ListNode{}
 	ptr := &head
