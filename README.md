@@ -75,6 +75,7 @@
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 461 | [Hamming Distance ](https://leetcode.com/problems/hamming-distance) | [golang](./golang/hamming_distance.go)| O(4n) | O(1) | Easy ||
+136 | [Single Number](https://leetcode.com/problems/single-number) | [golang](./golang/single_number.go) | O(n) | O(1) | Easy |Array|
 
 ## Tree
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
