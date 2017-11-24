@@ -95,3 +95,6 @@
 24 | [Linked List](https://leetcode.com/problems/swap-nodes-in-pairs) | [golang](./golang/swap_nodes_in_pairs.go) | O(n) | O(1) | Medium ||
 61 | [Rotate List](https://leetcode.com/problems/rotate-list) | [golang](./golang/rotate_list.go) | O(n) | O(1) | Medium | Two Pointers |
 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | [golang](./golang/merge_k_sorted_lists.go) | O(nlgn) | O(n) | HARD|| Can be further reduced to O(nlgk) and O(1)
+
+## Brainteaser
+292 | [Nim Game](https://leetcode.com/problems/nim-game) | [golang](./golang/nim_game.go) | O(1) | O(0) | Easy ||
