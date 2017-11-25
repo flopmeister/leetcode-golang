@@ -35,7 +35,7 @@
 140 | [Word Break II](https://leetcode.com/problems/word-break-ii) | [golang](./golang/word_break_ii.go)| O(n^2) | O(n) | Hard ||3 solutions in this file
 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | [golang](./golang/minimum_path_sum.go) | O(m*n) | O(m*n) | Medium || Can be further improved to space O(1)
 62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | [golang](./golang/unique_paths.go) |O(m*n) | O(m*n) | Medium || Can be further improved to space O(m)
-53 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | [golang](./golang/unique_paths_ii.go) | O(m*n) | O(m*n) || can be further improved to space O(m)
+53 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | [golang](./golang/unique_paths_ii.go) | O(m*n) | O(m*n) | Medium || can be further improved to space O(m)
 494 | [Target Sum](https://leetcode.com/problems/target-sum) | [golang](./golang/target_sum.go) | O(n^2) |O(n) | Medium || two solutions are provided
 322 | [Coin Change](https://leetcode.com/problems/coin-change) | [golang](./golang/coin_change.go) | O(s*n) | O(s) | Medium ||
 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons) | [golang](./golang/burst_balloons.go) | O(n^3) | O(n) | Hard || 参考了discuss 解出题目
@@ -71,6 +71,7 @@
 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | [golang](./golang/merge_intervals.go) | O(nlgn) | O(1) | Medium | Sort | implement golang sort interface 即可
 57 | [Inset Interval](https://leetcode.com/problems/insert-interval) | [golang](./golang/insert_interval.go) | O(n) | O(1) | Hard | Sort 或者遍历 | solution 2 来自leetcode 感觉更好
 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [golang](./golang/contains_duplicate.go) | O(n) | O(n) | Easy | HashTable |
+128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) | [golang](./golang/longest_consecutive_sequence.go) | O(n) | O(n) | Hard | HashMap, Set|| 这里构思判断streak开始与否很好
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
