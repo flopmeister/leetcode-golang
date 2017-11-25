@@ -13,6 +13,7 @@
 344 | [Reverse String](https://leetcode.com/problems/reverse-string) | [golang](./golang/reverse_string.go) | O(n) | O(1) | Easy ||
 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle) | [golang](./golang/judge_route_circle.go) | O(n) | O(1) | Easy ||
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [golang](./golang/length_of_last_word.go) | O(n) | O(1) | Easy ||
+388 | [Longest Absolute Path](https://leetcode.com/problems/longest-absolute-file-path) | [golang](./golang/longest_absolute_path.go) | O(n) | O(n) | Medium ||
 
 ## DP
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
