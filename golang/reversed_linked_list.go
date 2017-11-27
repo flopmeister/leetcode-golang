@@ -1,8 +1,7 @@
-package main
 
-func main() {
-	a := []int{1, 2, 3, 4, 5}
-	longestConsecutive(a)
+type ListNode struct {
+	Val  int
+	Next *ListNode
 }
 
 func reverseList(head *ListNode) *ListNode {
@@ -14,11 +13,6 @@ func reverseList(head *ListNode) *ListNode {
 		head = next
 	}
 	return prev
-}
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
 }
 
 // recursive
