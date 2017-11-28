@@ -93,7 +93,7 @@
 66 | [Plus One](https://leetcode.com/problems/plus-one) | [golang](./golang/plus_one.go) | O(n) | O(1) | Easy | Array |
 67 | [Add Binary](https://leetcode.com/problems/add-binary) | [golang](./golang/add_binary.go) | O(n) | O(1) | Easy| String |
 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs) | [golang](./golang/poor_pigs.go) | O(1) | O(1) | Easy| ...|
-
+60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | [golang](./golang/permutation_sequence.go) | O(n) | O(2n) | Medium ||
 ## LinkedList
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
