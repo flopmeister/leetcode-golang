@@ -72,6 +72,8 @@
 57 | [Inset Interval](https://leetcode.com/problems/insert-interval) | [golang](./golang/insert_interval.go) | O(n) | O(1) | Hard | Sort 或者遍历 | solution 2 来自leetcode 感觉更好
 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [golang](./golang/contains_duplicate.go) | O(n) | O(n) | Easy | HashTable |
 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) | [golang](./golang/longest_consecutive_sequence.go) | O(n) | O(n) | Hard | HashMap, Set|| 这里构思判断streak开始与否很好
+238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | [python](./python/product_array_except_self.py) | O(n) | O(n) | Medium | left , right || **同样解法，golang 居然 TLE了**
+)
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
