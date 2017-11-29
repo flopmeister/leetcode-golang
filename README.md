@@ -81,6 +81,7 @@
 461 | [Hamming Distance ](https://leetcode.com/problems/hamming-distance) | [golang](./golang/hamming_distance.go)| O(4n) | O(1) | Easy ||
 136 | [Single Number](https://leetcode.com/problems/single-number) | [golang](./golang/single_number.go) | O(n) | O(1) | Easy |Array|
 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | [golang](./golang/sum_of_two_integers.go) | O(n) | O(1) | Easy ||
+338 | [Counting Bits] (https://leetcode.com/problems/counting-bits) | [golang](./golang/counting_bits.go) | O(n) | O(n) | Easy || 关键用 &的技巧
 
 ## Tree
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -106,5 +107,6 @@
 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | [golang](./golang/merge_k_sorted_lists.go) | O(nlgn) | O(n) | HARD|| Can be further reduced to O(nlgk) and O(1)
 237 | [Delete a Node in a linked list](https://leetcode.com/problems/delete-node-in-a-linked-list) | [python](./python/delete_node_in_a_linked_list.py) | O(1) | O(1) | Easy||
 206 | [Reversed Linked List](https://leetcode.com/problems/reverse-linked-list) | [golang](./golang/reversed_linked_list.go) | O(n) | O(n) | Easy ||
+
 ## Brainteaser
 292 | [Nim Game](https://leetcode.com/problems/nim-game) | [golang](./golang/nim_game.go) | O(1) | O(0) | Easy ||
