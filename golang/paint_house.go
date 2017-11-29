@@ -1,10 +1,3 @@
-package main
-
-func main() {
-	a := []int{1, 2, 3, 4, 5}
-	longestConsecutive(a)
-}
-
 func minCost(costs [][]int) int {
 	const (
 		IntMax = 1<<31 - 1
@@ -45,4 +38,5 @@ func minCost(costs [][]int) int {
 			min = dp[m-1][x]
 		}
 	}
+	return min
 }
