@@ -96,6 +96,8 @@
 67 | [Add Binary](https://leetcode.com/problems/add-binary) | [golang](./golang/add_binary.go) | O(n) | O(1) | Easy| String |
 458 | [Poor Pigs](https://leetcode.com/problems/poor-pigs) | [golang](./golang/poor_pigs.go) | O(1) | O(1) | Easy| ...|
 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | [golang](./golang/permutation_sequence.go) | O(n) | O(2n) | Medium ||
+202 | [Happy Number](https://leetcode.com/problems/happy-number) | [golang](./golang/happy_number.go) | O(n) | O(n) | Easy | HashTable | digit by digit 处理还是用n/10, n%10 的好
+
 ## LinkedList
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
