@@ -1,12 +1,3 @@
-package main
-
-func main() {
-	a := []int{1, 2, 3, 4, 5}
-	longestConsecutive(a)
-}
-
-// 个人感觉所有的palindrome问题都跟two pointers 有关
-
 func countSubstrings(s string) int {
 	if len(s) == 0 {
 		return 0

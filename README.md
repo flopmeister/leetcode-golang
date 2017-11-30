@@ -42,6 +42,7 @@
 673 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence) | [golang](./golang/number_of_longest_increasing_subsequence.go) | O(n^2) | O(n) | Medium || 
 691 | [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word) | [golang](./golang/stickers_to_spell_word.go) | TBA | TBA | Hard || 还没做出来。。。 
 265 | [Paint House](https://leetcode.com/problems/paint-house-ii/) | [golang](./golang/paint_house.go) | O(n*m*m) | O(n*m) | Easy ||
+647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings) | [golang](./golang/palindromic_substrings.go) | O(n^2) | O (1) | Medium || 里面有两个solution 还有一个dp
 
 ## Array
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
