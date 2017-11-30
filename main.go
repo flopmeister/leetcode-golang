@@ -1,5 +1,10 @@
 package main
 
+import (
+	"strconv"
+	"strings"
+)
+
 func main() {
 	a := []int{1, 2, 3, 4, 5}
 	longestConsecutive(a)
@@ -7,57 +12,33 @@ func main() {
 
 // 个人感觉所有的palindrome问题都跟two pointers 有关
 
-func countSubstrings(s string) int {
-	if len(s) == 0 {
-		return 0
-	}
-	count := 0
-	for i := 0; i < len(s); i++ {
-		count += extendPalindrome(s, i, i)   // calculate the palindromes which center is i
-		count += extendPalindrome(s, i, i+1) // calculate the palindromes the center is i and i+1
-	}
-	return count
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
 }
 
-func extendPalindrome(s string, left, right int) int {
-	res := 0
-	for left >= 0 && right < len(s) && s[left] == s[right] {
-		res++
-		left--
-		right++
-	}
+func binaryTreePaths(root *TreeNode) []string {
+	res := []string{}
+	var cur = strconv.Itoa(root.Val)
+	solution(&res, &cur, root)
 	return res
 }
 
-// DP solution
-// func countSubstrings(s string) int {
-// 	dp := make([]int, len(s))
-//     dp[0] = 1
-// 	for i := 1; i < len(s); i++ {
-// 		dp[i] = dp[i-1] + 1 + sum(s, i)
-// 	}
-// 	return dp[len(s)-1]
-// }
+func solution(res *[]string, cur *string, root *TreeNode) {
+	// reach the left
+	if root.Left == nil && root.Right == nil {
+		// we need to copy current path
+		tmp := *cur
+		*res = append(*res, tmp)
+	} else if root.Left != nil {
+		*cur = *cur + "->" + strconv.Itoa(root.Val)
+		solution(res, cur, root.Left)
+		*cur = strings.TrimSuffix(*cur, "->"+strconv.Itoa(root.Val))
+	} else if root.Right != nil {
+		*cur = *cur + "->" + strconv.Itoa(root.Val)
+		solution(res, cur, root.Right)
+		*cur = strings.TrimSuffix(*cur, "->"+strconv.Itoa(root.Val))
+	}
 
-// func sum(s string, pos int) int {
-// 	res := 0
-// 	for i := 0; i < pos; i++ {
-// 		if s[i] == s[pos] && isPalindrom(s, i, pos) {
-// 			res++
-// 		}
-// 	}
-// 	return res
-// }
-
-// func isPalindrom(s string, start, end int) bool {
-// 	l := start
-// 	r := end
-// 	for l <= r {
-// 		if s[l] != s[r] {
-// 			return false
-// 		}
-// 		l++
-// 		r--
-// 	}
-// 	return true
-// }
+}

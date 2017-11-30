@@ -90,6 +90,7 @@
 |---|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [golang](./golang/merge_two_binary_trees.go)| O(n) | O(n) | Easy ||
 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [golang](./golang/max_depth_of_binary_tree.go) | O(n) | O(n | Easy) ||
+257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) | [golang](./golang/binary_tree_paths.go) | O(n) | O(n) | Medium | DFS|
 
 ## Math
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
