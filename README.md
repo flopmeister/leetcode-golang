@@ -77,7 +77,7 @@
 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [golang](./golang/contains_duplicate.go) | O(n) | O(n) | Easy | HashTable |
 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) | [golang](./golang/longest_consecutive_sequence.go) | O(n) | O(n) | Hard | HashMap, Set|| 这里构思判断streak开始与否很好
 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | [python](./python/product_array_except_self.py) | O(n) | O(n) | Medium | left , right || **同样解法，golang 居然 TLE了**
-)
+73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | [golang](./golang/set_matrix_zeros.go) | O(m*n) | O(1) | Medium || 
 
 ## Bit Manipulation
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
