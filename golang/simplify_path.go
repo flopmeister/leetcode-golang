@@ -1,15 +1,3 @@
-package main
-
-import (
-	"strings"
-)
-
-func main() {
-	a := []int{1, 2, 3, 4, 5}
-	longestConsecutive(a)
-}
-
-// 个人感觉所有的palindrome问题都跟two pointers 有关
 
 // string tokenization + stack
 func simplifyPath(path string) string {

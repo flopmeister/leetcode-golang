@@ -14,6 +14,7 @@
 657 | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle) | [golang](./golang/judge_route_circle.go) | O(n) | O(1) | Easy ||
 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [golang](./golang/length_of_last_word.go) | O(n) | O(1) | Easy ||
 388 | [Longest Absolute Path](https://leetcode.com/problems/longest-absolute-file-path) | [golang](./golang/longest_absolute_path.go) | O(n) | O(n) | Medium ||
+71 | [Simplify Path] (https://leetcode.com/problems/simplify-path) | [golang](./golang/simplify_path.go) | O(n) | O(n) | Medium | tokenization + stack | edge cases :1.tokenization会产生的zero value 2. stack pop 时候需要考虑stack不是empty
 
 ## DP
 |#  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
